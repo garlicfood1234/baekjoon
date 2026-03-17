@@ -1,1 +1,4 @@
 .vscode
+problems\build
+*.exe
+*.json
