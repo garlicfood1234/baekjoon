@@ -15,7 +15,7 @@ int main() {
     int a;
     int b;
     scanf("%d %d", &a, &b);
-    float c = (double) a / b;
-    printf("%lf", c);
+    double c = (double) a / b;
+    printf("%.10f", c);
     return(0);
 }
